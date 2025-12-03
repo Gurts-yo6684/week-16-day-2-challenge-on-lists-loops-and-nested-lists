@@ -31,6 +31,10 @@ lists = [names, items, quantity]
 # - Item requested  
 # - Quantity requested  
 
+names = ["Allyson", "Alayna", "Aby", "Sophia"]
+items = ["cookies", "apples", "folders", "paint brushes"]
+quantity = [2, 4, 1, 6]
+
 # ---
 
 # ### 2. Identify Key Information
@@ -76,10 +80,17 @@ print(quantity)
 # Classroom 2: 7, 3, 9  
 # Classroom 3: 10, 6, 4  
 
+classroom1 = [8, 12, 5]
+classroom2 = [7, 3, 9]
+classroom3 = [10, 6, 4]
+classes = [classroom1, classroom2, classroom3]
 # Answer the following:
 
 # 1. What is the **middle number** in the second classroom’s list?
+print(classes[1][1])
 # 2. Create a new list that extracts **only the last number** from each classroom.
+lastnumber = [classroom1[2], classroom2[2],classroom3[2]]
+print(lastnumber)
 # 3. Explain **why this information must be stored as a nested structure instead of a single list.**
 
 # ---
